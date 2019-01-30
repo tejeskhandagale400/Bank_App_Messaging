@@ -8,10 +8,10 @@
 </head>
 <body>
 <a href="depositform">Deposit</a>
-
+<br>
 <a href="withdrawform">Withdraw</a>
-
+<br>
 <a href="fundtransferform">Fund Transfer</a>
-
+<br>
 </body>
 </html>

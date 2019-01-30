@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Lazy"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitMessagingTemplate"/>
+<fullyQualifiedTypeName name="com.rabbitmq.client.AMQP.Queue"/>
+<fullyQualifiedTypeName name="com.capgemini.transaction.transaction.sender.TransactionSender"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+<fullyQualifiedTypeName name="com.capgemini.bankaccount.bankaccount.entity.Transaction"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.core.messaging.MessageListener"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.RabbitListener"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.Queue"/>
+<fullyQualifiedTypeName name="com.capgemini.bankaccount.bankaccount.resource.AccountResource"/>
+<fullyQualifiedTypeName name="com.netflix.discovery.converters.Auto"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.annotation.EnableRabbit"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.listener.exception.ListenerExecutionFailedException"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.MessageListener"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.Message"/>
+<fullyQualifiedTypeName name="com.capgemini.transaction.transaction.entity.Transaction"/>
+<fullyQualifiedTypeName name="org.springframework.core.serializer.Deserializer"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.support.converter.MessageConverter"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.core.AmqpTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.connection.ConnectionFactory"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.core.RabbitTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.springframework.amqp.support.converter.Jackson2JsonMessageConverter"/>
+</qualifiedTypeNameHistroy>

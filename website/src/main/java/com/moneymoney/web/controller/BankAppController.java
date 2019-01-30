@@ -39,12 +39,17 @@ public class BankAppController {
 		model.addAttribute("transactionList", "Unavailable");
 		return "statements";
 	}
-
+	
+	@RequestMapping
+	public String home() {
+		return "index";
+	}
+	
 	@RequestMapping("/depositform")
 	public String depositForm() {
 		return "DepositForm";
 	}
-
+	
 	@RequestMapping("/deposit")
 	@HystrixCommand(fallbackMethod = "failedDeposit")
 	public String deposit(@ModelAttribute Transaction transaction, Model model) {
