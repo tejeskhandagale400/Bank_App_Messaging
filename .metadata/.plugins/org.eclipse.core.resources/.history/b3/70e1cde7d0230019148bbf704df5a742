@@ -1,0 +1,29 @@
+package com.capgemini.bankaccount.bankaccount.reciever;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+import com.capgemini.bankaccount.bankaccount.entity.Transaction;
+import com.capgemini.bankaccount.bankaccount.resource.AccountResource;
+
+@Component
+public class AccountReciever {
+
+	@Autowired
+	private AccountResource accountResource;
+	
+	@Bean
+	public Queue queue() {
+		return new Queue("DepositeQueue", false);
+	}
+
+	@RabbitListener(queues = "DepositeQueue")
+	public void processMessage(Transaction transaction)  throws Exception{
+		System.out.println("Inside Reciez`ver");
+		accountResource.updateAccountBalance(transaction);
+ 	}
+
+}

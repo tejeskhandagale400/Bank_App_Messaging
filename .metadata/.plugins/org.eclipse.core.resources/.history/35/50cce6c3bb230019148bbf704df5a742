@@ -1,0 +1,14 @@
+package com.capgemini.transaction.transaction.sender;
+
+import org.springframework.amqp.rabbit.core.RabbitMessagingTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Component;
+
+@Component
+@Lazy
+public class TransactionSender {
+
+	@Autowired
+	private RabbitMessagingTemplate template;
+}

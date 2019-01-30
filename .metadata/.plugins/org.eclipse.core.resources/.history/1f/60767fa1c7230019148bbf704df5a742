@@ -1,0 +1,5 @@
+package com.capgemini.bankaccount.bankaccount.sender;
+
+public class AccountSender {
+
+}

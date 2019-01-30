@@ -1,0 +1,5 @@
+package com.capgemini.transaction.transaction.sender;
+
+public class TransactionSender {
+
+}

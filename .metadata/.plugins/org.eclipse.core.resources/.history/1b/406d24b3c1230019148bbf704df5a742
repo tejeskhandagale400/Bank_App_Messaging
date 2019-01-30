@@ -1,0 +1,14 @@
+package com.capgemini.transaction.transaction.reciever;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
+public class TransactionReciever {
+
+	@Bean
+	public Queue depositeQueue() {
+		return new Queue("account",false);
+	}
+}

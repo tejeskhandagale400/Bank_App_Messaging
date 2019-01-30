@@ -1,0 +1,5 @@
+package com.capgemini.bankaccount.bankaccount.reciever;
+
+public class AccountReciever {
+
+}

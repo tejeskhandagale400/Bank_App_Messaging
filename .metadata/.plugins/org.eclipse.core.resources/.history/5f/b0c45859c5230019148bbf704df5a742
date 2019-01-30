@@ -1,0 +1,21 @@
+package com.capgemini.bankaccount.bankaccount.reciever;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountReciever {
+
+	@Bean
+	public Queue depositeQueue() {
+		return new Queue("DepositeQueue",false);
+	}
+	
+	@RabbitListener(queues = "DepositeQueue")
+	public void processMessage(Double updatedBalance) {
+ 		System.out.println("Inside Reciever");
+		System.out.println("outPut is"+accNumber);
+ 	}
+}

@@ -1,0 +1,8 @@
+package com.capgemini.transaction.transaction.sender;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TransactionSender {
+
+}

@@ -1,0 +1,8 @@
+package com.capgemini.bankaccount.bankaccount.reciever;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountReciever {
+
+}

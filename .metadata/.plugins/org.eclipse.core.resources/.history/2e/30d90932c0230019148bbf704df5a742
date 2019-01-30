@@ -1,0 +1,5 @@
+package com.capgemini.transaction.transaction.resource;
+
+public class TransactionReciever {
+
+}

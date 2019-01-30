@@ -1,0 +1,24 @@
+package com.capgemini.bankaccount.bankaccount.reciever;
+
+import org.springframework.amqp.core.Queue;
+import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountReciever {
+
+
+	@Bean
+	public Queue queue() {
+		return new Queue("DepositeQueue", false);
+	}
+
+	@RabbitListener(queues = "DepositeQueue")
+	public void processMessage(String email) {
+		System.out.println("Inside Reciez`ver");
+		System.out.println("outPut is"+email);
+ 	}
+
+}
+
